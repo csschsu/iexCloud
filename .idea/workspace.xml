@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be535816-c065-44b3-b512-709731770a40" name="Changes" comment="Added timeSeriesClient.py">
-      <change afterPath="$PROJECT_DIR$/iexDate.py" afterDir="false" />
+    <list default="true" id="be535816-c065-44b3-b512-709731770a40" name="Changes" comment="Added stock query">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeSeriesClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/timeSeriesClient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iexClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/iexClient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iexDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/iexDate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeSeriesClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/timeSeriesClient.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/timeSeriesClient.py" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -70,9 +76,14 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.timeSeriesClient">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.x">
     <configuration name="iexClient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,7 +97,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iexClient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/iexClient.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +119,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iexDate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/iexDate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +141,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.json" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test.json" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,13 +157,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$USER_HOME$/IdeaProjects/empty/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/timeSeriesClient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/timeSeriesClient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="x" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/x.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,9 +199,11 @@
       <item itemvalue="Python.iexClient" />
       <item itemvalue="Python.test.json" />
       <item itemvalue="Python.iexDate" />
+      <item itemvalue="Python.x" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.x" />
         <item itemvalue="Python.iexDate" />
         <item itemvalue="Python.test.json" />
         <item itemvalue="Python.iexClient" />
@@ -190,7 +225,7 @@
       <workItem from="1636122087503" duration="1639000" />
       <workItem from="1636123780229" duration="9820000" />
       <workItem from="1636287822320" duration="882000" />
-      <workItem from="1636298596997" duration="5285000" />
+      <workItem from="1636298596997" duration="7548000" />
     </task>
     <task id="LOCAL-00001" summary="first version">
       <created>1635706422298</created>
@@ -255,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636288012361</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added stock query">
+      <created>1636303906501</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636303906501</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +321,8 @@
     <MESSAGE value="added end statement" />
     <MESSAGE value="initial" />
     <MESSAGE value="Added timeSeriesClient.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added timeSeriesClient.py" />
+    <MESSAGE value="Added stock query" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added stock query" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -289,7 +332,8 @@
     <SUITE FILE_PATH="coverage/iexCloud$idxDate.coverage" NAME="idxDate Coverage Results" MODIFIED="1636301919648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iexCloud$iexCloud.coverage" NAME="iexCloud Coverage Results" MODIFIED="1635706045364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iexCloud$test.coverage" NAME="test Coverage Results" MODIFIED="1636124274959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/iexCloud$timeSeriesClient.coverage" NAME="timeSeriesClient Coverage Results" MODIFIED="1636303282938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/iexCloud$timeSeriesClient.coverage" NAME="timeSeriesClient Coverage Results" MODIFIED="1636315278996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/iexCloud$x.coverage" NAME="x Coverage Results" MODIFIED="1636316514544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/iexCloud$iexClient.coverage" NAME="iexClient Coverage Results" MODIFIED="1636124023844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -6,6 +6,8 @@ def gettoken (file) :
 
 class Environment:
     def __init__(self, target : str, querystring: str):
+
+
         if target.lower() == "p" :
             self.iexBase = "https://cloud.iexapis.com/stable"
             self.token =  "?token=" + gettoken("/home/christer/iextoken_prod.dat")
