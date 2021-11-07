@@ -1,11 +1,17 @@
 import environment as env
 import requests
 import json
+import iexDate
 
-env = env.Environment ( "s", "/stock/AAPL/chart/date/20211015")
-#https://cloud.iexapis.com/stable/stock/INSERT_SYMBOL/chart/date/INSERT_DATE?token=INSERT_TOKEN
+def resolveQueryParams ( query : str, symbol : str, date:str ) :
+    query = query.replace( "<INSERT_SYMBOL>", symbol)
+    query = query.replace( "<INSERT_DATE>", date)
+    return query
 
-print (env.query)
+
+env = env.Environment ( "s", "/stock/<INSERT_SYMBOL>/chart/date/<INSERT_DATE>")
+print (resolveQueryParams(env.query, "AAPL", iexDate.previousworkday()))
+
 r = requests.get(env.query)
 res_json = json.loads(r.text)
 print(json.dumps(res_json, indent=4, sort_keys=True))
