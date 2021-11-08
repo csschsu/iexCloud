@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be535816-c065-44b3-b512-709731770a40" name="Changes" comment="Added stock query">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+    <list default="true" id="be535816-c065-44b3-b512-709731770a40" name="Changes" comment="moved to test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iexClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/iexClient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iexDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/iexDate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeSeriesClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/timeSeriesClient.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +217,7 @@
       <workItem from="1636122087503" duration="1639000" />
       <workItem from="1636123780229" duration="9820000" />
       <workItem from="1636287822320" duration="882000" />
-      <workItem from="1636298596997" duration="7548000" />
+      <workItem from="1636298596997" duration="8763000" />
     </task>
     <task id="LOCAL-00001" summary="first version">
       <created>1635706422298</created>
@@ -297,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636303906501</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="moved to test">
+      <created>1636316598785</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1636316598785</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +321,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="Added timeSeriesClient.py" />
     <MESSAGE value="Added stock query" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added stock query" />
+    <MESSAGE value="moved to test" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved to test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -333,7 +333,7 @@
     <SUITE FILE_PATH="coverage/iexCloud$iexCloud.coverage" NAME="iexCloud Coverage Results" MODIFIED="1635706045364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iexCloud$test.coverage" NAME="test Coverage Results" MODIFIED="1636124274959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iexCloud$timeSeriesClient.coverage" NAME="timeSeriesClient Coverage Results" MODIFIED="1636315278996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/iexCloud$x.coverage" NAME="x Coverage Results" MODIFIED="1636316514544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/iexCloud$x.coverage" NAME="x Coverage Results" MODIFIED="1636363247397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/iexCloud$iexClient.coverage" NAME="iexClient Coverage Results" MODIFIED="1636124023844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
