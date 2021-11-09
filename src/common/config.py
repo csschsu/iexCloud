@@ -3,7 +3,7 @@ import json
 
 class Environment:
     def __init__(self):
-        with open("config.json") as json_data_file:
+        with open("../config.json") as json_data_file:
             data = json.load(json_data_file)
             self.iexBase=data["iexBase"]
             self.token=data["token"]
