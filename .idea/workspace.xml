@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be535816-c065-44b3-b512-709731770a40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/environment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/iexClient.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/iexDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/iexDate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/iexCloud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/timeSeriesClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/timeSeriesClient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/x.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/x.py" afterDir="false" />
-    </list>
+    <list default="true" id="be535816-c065-44b3-b512-709731770a40" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +118,7 @@
       <workItem from="1636379954754" duration="8857000" />
       <workItem from="1636451189437" duration="1768000" />
       <workItem from="1636452979069" duration="1404000" />
-      <workItem from="1636454399313" duration="7239000" />
+      <workItem from="1636454399313" duration="7700000" />
     </task>
     <task id="LOCAL-00001" summary="first version">
       <created>1635706422298</created>
@@ -226,7 +210,13 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1636387373573</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="added bin plus env test in x.py">
+      <created>1636463519206</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1636463519206</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

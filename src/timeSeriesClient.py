@@ -2,7 +2,7 @@
 import requests
 import json
 import iexDate
-import environment
+import config
 
 def resolveQueryParams ( query : str, symbol : str, date:str ) :
     query = query.replace( "<INSERT_SYMBOL>", symbol)
@@ -21,7 +21,7 @@ def writeresultfile ( data :str ):
 # MAIN
 #
 
-env = environment.Environment ()
+env = config.Environment ()
 
 for symbol in env.symbols :
     uri = env.iexBase + "/stock/<INSERT_SYMBOL>/chart/date/<INSERT_DATE>" + env.token
