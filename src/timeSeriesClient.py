@@ -2,6 +2,7 @@
 from common import iexDate, config
 from common.common import resolveQueryParams, writeresultfile, checkresultfile
 import requests
+import datetime
 
 env = config.Environment ()
 
@@ -15,4 +16,4 @@ for symbol in env.symbols :
     r = requests.get(uri)
     writeresultfile(r.text, symbol, iexDate.previousworkday())
 
-print("END Client")
+print( datetime.datetime.now().strftime("%G-%m-%d %H:%M:%S")+ " END Client")
