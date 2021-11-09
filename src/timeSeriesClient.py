@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-import environment as env
 import requests
 import json
 import iexDate
+import environment
 
 def resolveQueryParams ( query : str, symbol : str, date:str ) :
     query = query.replace( "<INSERT_SYMBOL>", symbol)
@@ -10,7 +10,7 @@ def resolveQueryParams ( query : str, symbol : str, date:str ) :
     return query
 
 def writeresultfile ( data :str ):
-    res_json = json.loads(r.text)
+    res_json = json.loads(data)
     # print(json.dumps(res_json, indent=4, sort_keys=True))
     filename = symbol + "_" + iexDate.previousworkday() + ".dat"
     with open(filename, 'w') as f:
@@ -21,7 +21,7 @@ def writeresultfile ( data :str ):
 # MAIN
 #
 
-env = env.Environment ()
+env = environment.Environment ()
 
 for symbol in env.symbols :
     uri = env.iexBase + "/stock/<INSERT_SYMBOL>/chart/date/<INSERT_DATE>" + env.token
