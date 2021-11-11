@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be535816-c065-44b3-b512-709731770a40" name="Changes" comment="timestamp">
-      <change afterPath="$PROJECT_DIR$/src/stockStatsClient.py" afterDir="false" />
+    <list default="true" id="be535816-c065-44b3-b512-709731770a40" name="Changes" comment="added action to file">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/iexDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/iexDate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timeSeriesClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/timeSeriesClient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stockStatsClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/stockStatsClient.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +198,7 @@
       <workItem from="1636452979069" duration="1404000" />
       <workItem from="1636454399313" duration="18188000" />
       <workItem from="1636537232980" duration="4723000" />
-      <workItem from="1636623346191" duration="3521000" />
+      <workItem from="1636623346191" duration="5921000" />
     </task>
     <task id="LOCAL-00001" summary="first version">
       <created>1635706422298</created>
@@ -345,7 +344,13 @@
       <option name="presentableId" value="LOCAL−00022" />
       <updated>1636480771635</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL−00023" summary="added action to file">
+      <created>1636627763540</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1636627763540</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,23 +383,8 @@
     <MESSAGE value="removed iml files" />
     <MESSAGE value="included path" />
     <MESSAGE value="timestamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="timestamp" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/common/common.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/common/common.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added action to file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added action to file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

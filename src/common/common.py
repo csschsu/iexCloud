@@ -18,7 +18,7 @@ def writeresultfile ( data :str, action : str , symbol :str, date : str ):
             f.close()
 
 def resultfilename (action : str, symbol :str, date : str) :
-    return "../data/" + symbol + "_"  + action + "_" + date + ".dat"
+    return "../data/" + symbol + "_"  + action + "_" + date + ".json"
 
 def checkresultfile ( action : str, symbol :str, date : str ):
     checkaction(action)
