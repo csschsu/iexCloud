@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be535816-c065-44b3-b512-709731770a40" name="Changes" comment="removed iml files">
-      <change beforePath="$PROJECT_DIR$/src/common/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/x.py" beforeDir="false" />
+    <list default="true" id="be535816-c065-44b3-b512-709731770a40" name="Changes" comment="timestamp">
+      <change afterPath="$PROJECT_DIR$/src/stockStatsClient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/iexDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/iexDate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timeSeriesClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/timeSeriesClient.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -80,7 +82,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.timeSeriesClient">
+  <component name="RunManager" selected="Python.stockStatsClient">
     <configuration name="common" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="iexCloud" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +97,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/common/common.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stockStatsClient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iexCloud" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/stockStatsClient.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,10 +167,12 @@
     <list>
       <item itemvalue="Python.timeSeriesClient" />
       <item itemvalue="Python.common" />
+      <item itemvalue="Python.stockStatsClient" />
       <item itemvalue="Python tests.Python tests in /home/csschsu/work/iexCloud/src/test/common_test.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stockStatsClient" />
         <item itemvalue="Python tests.Python tests in /home/csschsu/work/iexCloud/src/test/common_test.py" />
         <item itemvalue="Python.common" />
       </list>
@@ -171,7 +197,9 @@
       <workItem from="1636379954754" duration="8857000" />
       <workItem from="1636451189437" duration="1768000" />
       <workItem from="1636452979069" duration="1404000" />
-      <workItem from="1636454399313" duration="15725000" />
+      <workItem from="1636454399313" duration="18188000" />
+      <workItem from="1636537232980" duration="4723000" />
+      <workItem from="1636623346191" duration="3521000" />
     </task>
     <task id="LOCAL-00001" summary="first version">
       <created>1635706422298</created>
@@ -299,7 +327,25 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1636477642093</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="removed iml files">
+      <created>1636478089926</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1636478089926</updated>
+    </task>
+    <task id="LOCAL−00021" summary="included path">
+      <created>1636480167921</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1636480167921</updated>
+    </task>
+    <task id="LOCAL−00022" summary="timestamp">
+      <created>1636480771635</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1636480771635</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +376,25 @@
     <MESSAGE value="cleanup" />
     <MESSAGE value="check datafile exists before download" />
     <MESSAGE value="removed iml files" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed iml files" />
+    <MESSAGE value="included path" />
+    <MESSAGE value="timestamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="timestamp" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/common/common.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/common/common.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -338,7 +402,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/iexCloud$iexCloud.coverage" NAME="iexCloud Coverage Results" MODIFIED="1635869492296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/iexCloud$timeSeriesClient.coverage" NAME="timeSeriesClient Coverage Results" MODIFIED="1636477935777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/iexCloud$timeSeriesClient.coverage" NAME="timeSeriesClient Coverage Results" MODIFIED="1636480734306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/iexCloud$stockStatsClient.coverage" NAME="stockStatsClient Coverage Results" MODIFIED="1636626250685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/iexCloud$idxDate.coverage" NAME="idxDate Coverage Results" MODIFIED="1636301919648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iexCloud$.coverage" NAME=" Coverage Results" MODIFIED="1636467574326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/iexCloud$iexClient.coverage" NAME="iexClient Coverage Results" MODIFIED="1635874012516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

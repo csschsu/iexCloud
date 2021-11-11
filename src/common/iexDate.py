@@ -16,3 +16,6 @@ def previousworkday():
     dayofyear = prevday.strftime("%G%m%d")
     return dayofyear
 
+def today() :
+    return date.today().strftime("%G%m%d")
+
