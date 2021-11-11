@@ -6,15 +6,15 @@ import datetime
 
 env = config.Environment ()
 action = "STOCK"
-
+sdat = iexDate.previousworkday()
 
 for symbol in env.symbols :
-    if checkresultfile(action, symbol, iexDate.previousworkday()) :
+    if checkresultfile(action, symbol, sdat) :
         continue
     uri = env.iexBase + "/stock/<INSERT_SYMBOL>/chart/date/<INSERT_DATE>" + env.token
     uri = resolveQueryParams(uri, symbol, iexDate.previousworkday())
     print ("Query uri :" + uri )
     r = requests.get(uri)
-    writeresultfile(r.text, action, symbol, iexDate.previousworkday())
+    writeresultfile(r.text, action, symbol, sdat)
 
 print( datetime.datetime.now().strftime("%G-%m-%d %H:%M:%S")+ " END Client")
