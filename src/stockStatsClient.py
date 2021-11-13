@@ -4,7 +4,7 @@ from common.common import resolveQueryParams, writeresultfile, checkresultfile
 import requests
 import datetime
 
-env = config.Environment ()
+env = config.Config ()
 action = "STATS"
 sdat = iexDate.today()
 

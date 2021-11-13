@@ -1,17 +1,18 @@
 #!/usr/bin/python3
-from common import iexDate, config
+from common import iexDate
+from common import iexCloudConfig as conf
 from common.common import resolveQueryParams, writeresultfile, checkresultfile
 import requests
 import datetime
 
-env = config.Environment ()
 action = "STOCK"
 sdat = iexDate.previousworkday()
+symbols = conf.get("symbols").split(",")
 
-for symbol in env.symbols :
+for symbol in symbols :
     if checkresultfile(action, symbol, sdat) :
         continue
-    uri = env.iexBase + "/stock/<INSERT_SYMBOL>/chart/date/<INSERT_DATE>" + env.token
+    uri = conf.get("iexBase") + "/stock/<INSERT_SYMBOL>/chart/date/<INSERT_DATE>" + conf.get("token")
     uri = resolveQueryParams(uri, symbol, iexDate.previousworkday())
     print ("Query uri :" + uri )
     r = requests.get(uri)

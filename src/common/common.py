@@ -1,5 +1,6 @@
 import json
 import os
+import common.iexCloudConfig as iex
 
 class InvalidAction(Exception):
     pass
@@ -18,7 +19,8 @@ def writeresultfile ( data :str, action : str , symbol :str, date : str ):
             f.close()
 
 def resultfilename (action : str, symbol :str, date : str) :
-    return "../data/" + symbol + "_"  + action + "_" + date + ".json"
+    filedeploypath = iex.get("filedeploypath")
+    return filedeploypath + "/" + symbol + "_"  + action + "_" + date + ".json"
 
 def checkresultfile ( action : str, symbol :str, date : str ):
     checkaction(action)

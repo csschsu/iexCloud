@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/iexCloud.iml" filepath="$PROJECT_DIR$/iexCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/iexCloud.iml" filepath="$PROJECT_DIR$/src/iexCloud.iml" />
     </modules>
   </component>
 </project>
