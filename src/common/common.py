@@ -1,6 +1,6 @@
 import json
 import os
-import common.iexCloudConfig as iex
+import iexCloudConfig as iex
 
 class InvalidAction(Exception):
     pass
