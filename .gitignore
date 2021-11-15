@@ -3,3 +3,5 @@ config.json
 /refdata/*
 out.log
 *.iml
+.idea
+.idea/*
