@@ -24,7 +24,6 @@ def resultfilename (action : str, symbol :str, date : str) :
 
 def checkresultfile ( action : str, symbol :str, date : str ):
     checkaction(action)
-    print (resultfilename( action ,symbol, date))
     return os.path.isfile(resultfilename( action ,symbol, date))
 
 def checkaction ( action : str ) :
