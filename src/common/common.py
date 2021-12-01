@@ -1,6 +1,6 @@
 import json
 import os
-import iexCloudConfig as iex
+import src.common.iexCloudConfig as iex
 
 class InvalidAction(Exception):
     pass
@@ -24,6 +24,7 @@ def resultfilename (action : str, symbol :str, date : str) :
 
 def checkresultfile ( action : str, symbol :str, date : str ):
     checkaction(action)
+    print (resultfilename( action ,symbol, date))
     return os.path.isfile(resultfilename( action ,symbol, date))
 
 def checkaction ( action : str ) :
